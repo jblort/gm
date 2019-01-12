@@ -1,34 +1,7 @@
-C++ Project Template
+gm (Graphics Math)
 ====================
 
-This is a simple project template that uses [CMake](https://cmake.org/), the package manager [Conan](https://conan.io/), and the test library [Catch](https://github.com/catchorg/Catch2).
-
-Its main purpose is to provide a project structure that is ready to go with only minimal adjustments depending on the project itself.
-
-The default structure is configured for building a library, as well as providing an app that uses it.
-
-The folders break down as follows:
-
-```
-project
-├── CMakeLists.txt
-│
-├── apps
-│   ├── CMakeLists.txt
-│   └── main.cpp
-│
-├── include
-│   └── libname 
-│       └── hello_world.h
-├── src
-│   ├── CMakeLists.txt
-│   └── hello_world.cpp
-│
-└── tests
-    ├── CMakeLists.txt
-    ├── example_test.cpp
-    └── main.cpp
-```
+A very simple math library designed for 3D graphics rendering. 
 
 ## Setup instructions
 
