@@ -62,6 +62,20 @@ gm::Vec4 gm::Vec4::operator/=(const float& c) {
     return *this / c;
 }
 
+gm::Vec4::Vec4(float x, float y, float z, float w):
+x{x},
+y{y},
+z{z},
+w{w}
+{}
+
+gm::Vec4::Vec4(const Vec3& other, float w):
+x{other.x},
+y{other.y},
+z{other.z},
+w{w}
+{}
+
 gm::Vec2 gm::operator+(const Vec2& lhs, const Vec2& rhs) {
     return {lhs.x + rhs.x, lhs.y + rhs.y};
 }

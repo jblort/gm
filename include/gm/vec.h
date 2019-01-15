@@ -41,6 +41,8 @@ struct GM_API Vec4 {
     Vec4 operator*=(const float& c);
     Vec4 operator/=(const float& c);
 
+    Vec4(float x, float y, float z, float w);
+    Vec4(const Vec3& other, float w);
 };
 
 Vec2 GM_API operator+(const Vec2& lhs, const Vec2& rhs);
